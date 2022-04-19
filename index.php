@@ -14,6 +14,7 @@ $message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
     <h1>
         <?php echo $text;
             echo '<br>';
+            echo $message;
         ?>
     </h1>
 
