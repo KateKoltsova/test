@@ -10,7 +10,11 @@ $text = 'Hello, World!';
 </head>
 <body>
 
-    <h1><?php echo $text ?></h1>
+    <h1>
+        <?php echo $text;
+            echo '<br>';
+        ?>
+    </h1>
 
 </body>
 </html>
