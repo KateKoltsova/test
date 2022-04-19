@@ -11,7 +11,11 @@ $message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
 </head>
 <body>
 
-    <h1><?php echo $text ?></h1>
+    <h1>
+        <?php echo $text;
+            echo '<br>';
+        ?>
+    </h1>
 
 </body>
 </html>
