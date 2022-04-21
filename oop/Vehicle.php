@@ -1,12 +1,14 @@
 <?php
 
-//require_once 'MovableInterface.php';
+namespace oop;
 
 abstract class Vehicle implements MovableInterface
 {
     private string $name;
     private int $speed;
     private int $maxSpeed;
+    protected static string $country;
+    protected static int $countWheel;
 
     public function __construct($name, $maxSpeed, $speed = 0)
     {
@@ -14,6 +16,10 @@ abstract class Vehicle implements MovableInterface
         $this->maxSpeed = $maxSpeed;
         $this->speed = $speed;
     }
+
+    abstract public static function setCountry();
+
+    abstract public static function setCountWheel();
 
     protected function getName()
     {
