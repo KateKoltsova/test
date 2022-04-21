@@ -1,6 +1,6 @@
 <?php
 
-require_once 'MovableInterface.php';
+//require_once 'MovableInterface.php';
 
 abstract class Vehicle implements MovableInterface
 {
