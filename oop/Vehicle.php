@@ -9,12 +9,16 @@ abstract class Vehicle implements MovableInterface
     private int $maxSpeed;
     protected static string $country;
     protected static int $countWheel;
+    protected Interior $interior;
+    public Engine $engine;
 
-    public function __construct($name, $maxSpeed, $speed = 0)
+    public function __construct($engine, $name, $maxSpeed, $material, $speed = 0)
     {
+        $this->engine = $engine;
         $this->name = $name;
         $this->maxSpeed = $maxSpeed;
         $this->speed = $speed;
+        $this->interior = new Interior($material);
     }
 
     abstract public static function setCountry();
