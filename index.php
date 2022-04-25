@@ -11,12 +11,12 @@ $message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
 </head>
 <body>
 
-    <h1>
-        <?php echo $text;
-            echo '<br>';
-            echo $message;
-        ?>
-    </h1>
+<!--    <h1>-->
+<!--        --><?php //echo $text;
+//            echo '<br>';
+//            echo $message;
+//        ?>
+<!--    </h1>-->
 
 </body>
 </html>

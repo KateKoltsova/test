@@ -1,0 +1,16 @@
+{
+    "name": "koltsova/test",
+    "description": "Project Test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kate Koltsova",
+            "email": "kate.petronyuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
