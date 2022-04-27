@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc2b62395cb6cbac72720d3d04c4997f",
+    "content-hash": "43833e4b231e03a3d35fb4ff77ffdd2d",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -328,6 +328,43 @@
                 }
             ],
             "time": "2022-03-20T21:55:58+00:00"
+        },
+        {
+            "name": "koltsova/mathematic_by_koltsova",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KateKoltsova/Mathematic.git",
+                "reference": "1ee30785685aee467ea4607b5348cadefe483a0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KateKoltsova/Mathematic/zipball/1ee30785685aee467ea4607b5348cadefe483a0c",
+                "reference": "1ee30785685aee467ea4607b5348cadefe483a0c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Math\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kate Koltsova",
+                    "email": "kate.petronyuk@gmail.com"
+                }
+            ],
+            "description": "Mathematic project",
+            "support": {
+                "issues": "https://github.com/KateKoltsova/Mathematic/issues",
+                "source": "https://github.com/KateKoltsova/Mathematic/tree/1.0"
+            },
+            "time": "2022-04-27T14:02:18+00:00"
         },
         {
             "name": "psr/http-client",

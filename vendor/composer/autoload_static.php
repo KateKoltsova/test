@@ -19,6 +19,10 @@ class ComposerStaticInit3576bc5386c834bb5b4b7d6c2a14e985
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
         ),
+        'M' => 
+        array (
+            'Math\\' => 5,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -36,6 +40,10 @@ class ComposerStaticInit3576bc5386c834bb5b4b7d6c2a14e985
         'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
+        ),
+        'Math\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/koltsova/mathematic_by_koltsova/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

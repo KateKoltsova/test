@@ -333,6 +333,46 @@
             "install-path": "../guzzlehttp/psr7"
         },
         {
+            "name": "koltsova/mathematic_by_koltsova",
+            "version": "1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KateKoltsova/Mathematic.git",
+                "reference": "1ee30785685aee467ea4607b5348cadefe483a0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KateKoltsova/Mathematic/zipball/1ee30785685aee467ea4607b5348cadefe483a0c",
+                "reference": "1ee30785685aee467ea4607b5348cadefe483a0c",
+                "shasum": ""
+            },
+            "time": "2022-04-27T14:02:18+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Math\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kate Koltsova",
+                    "email": "kate.petronyuk@gmail.com"
+                }
+            ],
+            "description": "Mathematic project",
+            "support": {
+                "issues": "https://github.com/KateKoltsova/Mathematic/issues",
+                "source": "https://github.com/KateKoltsova/Mathematic/tree/1.0"
+            },
+            "install-path": "../koltsova/mathematic_by_koltsova"
+        },
+        {
             "name": "psr/http-client",
             "version": "1.0.1",
             "version_normalized": "1.0.1.0",

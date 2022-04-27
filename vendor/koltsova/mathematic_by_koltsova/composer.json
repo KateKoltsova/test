@@ -1,0 +1,19 @@
+{
+    "name": "koltsova/mathematic_by_koltsova",
+    "description": "Mathematic project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kate Koltsova",
+            "email": "kate.petronyuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Math\\": "src"
+        }
+    }
+}
