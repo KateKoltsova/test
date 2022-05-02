@@ -5,7 +5,7 @@ use oop\Truck;
 use oop\Motorcycle;
 use oop\MovableInterface;
 
-require_once '../autoloader.php';
+require_once __DIR__.'/../autoloader.php';
 
 function move(MovableInterface $movable, $flag = 'start')
 {

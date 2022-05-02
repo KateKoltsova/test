@@ -3,9 +3,8 @@
 
 function autoload($classFullName)
 {
-    $classFullNameArray = explode('\\', $classFullName);
-    $className = $classFullNameArray[count($classFullNameArray) - 1];
-    $filename = __DIR__ . '/oop/' . $className . '.php';
+    $className = str_replace('\\', '/',$classFullName);
+    $filename = __DIR__ .'/'. $className . '.php';
     if (file_exists($filename)) {
         require_once $filename;
     }
