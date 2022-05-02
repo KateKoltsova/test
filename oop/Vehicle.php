@@ -12,7 +12,7 @@ abstract class Vehicle implements MovableInterface
     protected Interior $interior;
     public Engine $engine;
 
-    public function __construct($engine, $name, $maxSpeed, $material, $speed = 0)
+    public function __construct(Engine $engine, $name, $maxSpeed, $material, $speed = 0)
     {
         $this->engine = $engine;
         $this->name = $name;

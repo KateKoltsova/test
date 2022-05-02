@@ -6,7 +6,7 @@ class Car extends Vehicle
 {
     protected const COUNTRY_USA = 'USA';
 
-    public function __construct($engine, $name, $maxSpeed, $material, $speed = 0)
+    public function __construct(Engine $engine, $name, $maxSpeed, $material, $speed = 0)
     {
         parent::__construct($engine, $name, $maxSpeed, $material, $speed = 0);
         echo "You create a new Car!" . PHP_EOL;
@@ -45,14 +45,14 @@ class Car extends Vehicle
         if ($this->getSpeed() > 0) {
             parent::start();
         } else {
-            return "Car is ready to move. Increase the speed!" . PHP_EOL;
+            return $this->engine->starter()."Increase the speed!" . PHP_EOL;
         }
     }
 
     public function stop()
     {
         parent::stop();
-        return "Car " . $this->getName() . " stop moving!" . PHP_EOL;
+        return "Car " . $this->getName() . " stop moving!" . PHP_EOL.$this->engine->ender();
 
     }
 
