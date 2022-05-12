@@ -16,12 +16,17 @@ class ComposerStaticInit3576bc5386c834bb5b4b7d6c2a14e985
     public static $prefixLengthsPsr4 = array (
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
         ),
         'M' => 
         array (
             'Math\\' => 5,
+        ),
+        'L' => 
+        array (
+            'Logger\\' => 7,
         ),
         'G' => 
         array (
@@ -32,6 +37,10 @@ class ComposerStaticInit3576bc5386c834bb5b4b7d6c2a14e985
     );
 
     public static $prefixDirsPsr4 = array (
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
@@ -44,6 +53,10 @@ class ComposerStaticInit3576bc5386c834bb5b4b7d6c2a14e985
         'Math\\' => 
         array (
             0 => __DIR__ . '/..' . '/koltsova/mathematic_by_koltsova/src',
+        ),
+        'Logger\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/koltsova/logger/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

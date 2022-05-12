@@ -12,6 +12,8 @@
     "minimum-stability": "stable",
     "require": {
         "guzzlehttp/guzzle": "^7.0",
-        "koltsova/mathematic_by_koltsova": "^1.0"
+        "koltsova/mathematic_by_koltsova": "^1.0",
+        "psr/log": "^3.0",
+        "koltsova/logger": "dev-master"
     }
 }

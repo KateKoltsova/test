@@ -333,6 +333,50 @@
             "install-path": "../guzzlehttp/psr7"
         },
         {
+            "name": "koltsova/logger",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KateKoltsova/Logger.git",
+                "reference": "362d6408a2e5a79e62d8a7ad0c3cb0022b0782d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KateKoltsova/Logger/zipball/362d6408a2e5a79e62d8a7ad0c3cb0022b0782d1",
+                "reference": "362d6408a2e5a79e62d8a7ad0c3cb0022b0782d1",
+                "shasum": ""
+            },
+            "require": {
+                "psr/log": "^3.0"
+            },
+            "time": "2022-05-12T19:38:54+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Logger\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kate Koltsova",
+                    "email": "kate.petronyuk@gmail.com"
+                }
+            ],
+            "description": "Logger project",
+            "support": {
+                "issues": "https://github.com/KateKoltsova/Logger/issues",
+                "source": "https://github.com/KateKoltsova/Logger/tree/master"
+            },
+            "install-path": "../koltsova/logger"
+        },
+        {
             "name": "koltsova/mathematic_by_koltsova",
             "version": "1.0",
             "version_normalized": "1.0.0.0",
@@ -540,6 +584,59 @@
                 "source": "https://github.com/php-fig/http-message/tree/master"
             },
             "install-path": "../psr/http-message"
+        },
+        {
+            "name": "psr/log",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "time": "2021-07-14T16:46:02+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/3.0.0"
+            },
+            "install-path": "../psr/log"
         },
         {
             "name": "ralouphie/getallheaders",

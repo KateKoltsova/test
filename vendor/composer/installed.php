@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ef19a2aaea4cd8b9cca03ced4b4bc669bcbcb3ce',
+        'reference' => 'd7a2798071099a5543447f39684a48c65b0709c4',
         'name' => 'koltsova/test',
         'dev' => true,
     ),
@@ -37,6 +37,17 @@
             'reference' => 'c94a94f120803a18554c1805ef2e539f8285f9a2',
             'dev_requirement' => false,
         ),
+        'koltsova/logger' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../koltsova/logger',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '362d6408a2e5a79e62d8a7ad0c3cb0022b0782d1',
+            'dev_requirement' => false,
+        ),
         'koltsova/mathematic_by_koltsova' => array(
             'pretty_version' => '1.0',
             'version' => '1.0.0.0',
@@ -52,7 +63,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ef19a2aaea4cd8b9cca03ced4b4bc669bcbcb3ce',
+            'reference' => 'd7a2798071099a5543447f39684a48c65b0709c4',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(
@@ -99,6 +110,15 @@
             'provided' => array(
                 0 => '1.0',
             ),
+        ),
+        'psr/log' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'reference' => 'fe5ea303b0887d5caefd3d431c3e61ad47037001',
+            'dev_requirement' => false,
         ),
         'ralouphie/getallheaders' => array(
             'pretty_version' => '3.0.3',
