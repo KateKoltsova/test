@@ -335,12 +335,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KateKoltsova/Logger.git",
-                "reference": "362d6408a2e5a79e62d8a7ad0c3cb0022b0782d1"
+                "reference": "d8f16bf65c2626d10b859bb7154c19aebd0efbbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KateKoltsova/Logger/zipball/362d6408a2e5a79e62d8a7ad0c3cb0022b0782d1",
-                "reference": "362d6408a2e5a79e62d8a7ad0c3cb0022b0782d1",
+                "url": "https://api.github.com/repos/KateKoltsova/Logger/zipball/d8f16bf65c2626d10b859bb7154c19aebd0efbbf",
+                "reference": "d8f16bf65c2626d10b859bb7154c19aebd0efbbf",
                 "shasum": ""
             },
             "require": {
@@ -366,9 +366,9 @@
             "description": "Logger project",
             "support": {
                 "issues": "https://github.com/KateKoltsova/Logger/issues",
-                "source": "https://github.com/KateKoltsova/Logger/tree/master"
+                "source": "https://github.com/KateKoltsova/Logger/tree/2"
             },
-            "time": "2022-05-12T19:38:54+00:00"
+            "time": "2022-05-30T09:08:40+00:00"
         },
         {
             "name": "koltsova/mathematic_by_koltsova",

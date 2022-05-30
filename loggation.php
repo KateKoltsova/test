@@ -2,7 +2,10 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$logger = new \Logger\Logger(['File', 'Im']);
+$formatter = new \Logger\Formatter();
+$fileWriter = new \Logger\FileWritter($formatter);
+$dbWriter = new \Logger\DBWritter($formatter);
+$logger = new \Logger\Logger([$fileWriter, $dbWriter]);
 $math = new \Math\Mathematic($logger);
 
 $a = 20;
